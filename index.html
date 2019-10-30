@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=no, user-scalable=0">
+  <title>Pecode</title>
+  <link href="css/style.css" type="text/css" rel="stylesheet">
+  <link href="css/media.css" type="text/css" rel="stylesheet">
+  <script src="js/jquery-3.2.1.min.js"></script>
+  <!--[if lt IE 9]>
+  <script src="js/ie.js"></script>
+  <script src="js/html5.js"></script>
+  <![endif]-->
+</head>
+<body>
+
+<!-- site BEGIN -->
+<div id="site">
+  <!-- header BEGIN -->
+  <header class="header">
+    <div class="container header__container">
+      <nav class="header__nav">
+        <ul class="nav nav__list">
+          <li class="nav__item">
+            <a href="#main" class="js-scroll nav__link">Home</a>
+          </li>
+          <li class="nav__item">
+            <a href="#requirement" class="js-scroll nav__link">Our Requirement</a>
+          </li>
+          <li class="nav__item">
+            <a href="#help" class="js-scroll nav__link">Help</a>
+          </li>
+          <li class="nav__item">
+            <a href="#offer" class="js-scroll nav__link">We Offer</a>
+          </li>
+          <li class="nav__item">
+            <a href="#contacts" class="js-scroll nav__link">Contacts</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <!-- header END -->
+  <!-- main BEGIN -->
+  <section class="main" id="main">
+    <div class="container">
+      <div class="main__general">
+        <form class="form main__form" autocomplete="off">
+          <div class="title form__title ">Sent Request</div>
+          <div class="form__line">
+            <input type="text" class="input input_dark" id="forname" placeholder="Input your name">
+            <label for="forname" class="label">Input Name</label>
+          </div>
+          <div class="form__line">
+            <input type="text" class="input input_dark" id="foremail" placeholder="Input your email">
+            <label for="foremail" class="label">Input Email</label>
+          </div>
+          <div class="form__line">
+            <input type="submit" value="Sent" class="btn form__btn">
+          </div>
+        </form>
+        <div class="main__picture">
+          <img src="images/bg-photo.png" class="main__image">
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- main END -->
+  <!-- requirement BEGIN -->
+  <section class="requirement" id="requirement">
+    <img src="images/requirement-img.png" alt="" class="requirement__img">
+    <div class="container">
+      <h2 class="title requirement__title">Our Requirement</h2>
+      <div class="requirement__list">
+        <div class="row">
+          <div class="col-3 requirement__col">
+            <div class="requirement-item">
+              <div class="requirement-item__picture">
+                <img src="images/html.png" alt="" class="requirement-item__image">
+              </div>
+              <div class="requirement-item__text">
+                Front end - HTML5 and CSS3 are main technology of the UI code (CSS3 can replace JS in many cases).
+              </div>
+            </div>
+          </div>
+          <div class="col-3 requirement__col">
+            <div class="requirement-item">
+              <div class="requirement-item__picture">
+                <img src="images/pixel-perfect.png" alt="" class="requirement-item__image">
+              </div>
+              <div class="requirement-item__text">
+                Pixel-Perfect level of UI - must be accurate on pixel level to PSD design.
+              </div>
+            </div>
+          </div>
+          <div class="col-3 requirement__col">
+            <div class="requirement-item">
+              <div class="requirement-item__picture">
+                <img src="images/cannot.png" alt="" class="requirement-item__image">
+              </div>
+              <div class="requirement-item__text">
+                Cannot be any copyright mark, link, name, signature, email, images in any of the code files, files names, project images and any other project asset.
+              </div>
+            </div>
+          </div>
+          <div class="col-3 requirement__col">
+            <div class="requirement-item">
+              <div class="requirement-item__picture">
+                <img src="images/rosette.png" alt="" class="requirement-item__image">
+              </div>
+              <div class="requirement-item__text">
+                The developer cannot use any modules and plugins which are not free to use & with free license of use.
+              </div>
+            </div>
+          </div>
+          <div class="col-3 requirement__col">
+            <div class="requirement-item">
+              <div class="requirement-item__picture">
+                <img src="images/computers-1.png" alt="" class="requirement-item__image">
+              </div>
+              <div class="requirement-item__text">
+                Resolutions ready - link - need to include all desktops, including large screens and resolutions.
+              </div>
+            </div>
+          </div>
+          <div class="col-3 requirement__col">
+            <div class="requirement-item">
+              <div class="requirement-item__picture">
+                <img src="images/computers-2.png" alt="" class="requirement-item__image">
+              </div>
+              <div class="requirement-item__text">
+                Code - classes, IDís and scripts names - required to be named properly - for future editing.
+              </div>
+            </div>
+          </div>
+          <div class="col-3 requirement__col">
+            <div class="requirement-item">
+              <div class="requirement-item__picture">
+                <img src="images/computers-3.png" alt="" class="requirement-item__image">
+              </div>
+              <div class="requirement-item__text">
+                Sliders with layers & float text required to fit for any responsive layout.
+              </div>
+            </div>
+          </div>
+          <div class="col-3 requirement__col">
+            <div class="requirement-item">
+              <div class="requirement-item__picture">
+                <img src="images/computers-4.png" alt="" class="requirement-item__image">
+              </div>
+              <div class="requirement-item__text">
+                1 element for all layouts - Header, Footer, Body, Menu, fields & forms - cannot have duplicate elements for desktop and mobile (you required to do 1 elements which will fit to all layouts properly).
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- requirement END -->
+  <!-- help BEGIN -->
+  <section class="help" id="help">
+    <div class="container">
+      <h2 class="title help__title">Help</h2>
+      <ol class="help__list">
+        <li class="help__item">
+          NAME FONTS:
+          <br>
+          C
+          <span class="small_font">osmic</span>
+          S
+          <span class="small_font">ans</span>
+          MS
+          <br>
+          TEXT COLOR #272f2f
+          <br>
+          COLOR BUTTONS (GRADIENT) from #fb6a4e to
+          <br>#ff606a
+        </li>
+        <li class="help__item">
+          Clean, robust, dynamic & organized
+          <br>code are essentials!</li>
+        <li class="help__item">
+          File names need to be clear and logic.
+          <br>
+          Back-end files and folders organization -
+          <br>
+          Images, CSS, JS, Fonts, and any other project
+          <br>asset - required to be in dedicated folders.
+        </li>
+        <li class="help__item">
+          Use hover effects, animations and
+          <br>
+          fields validations (e.g. emails, ID,
+          <br>
+          names, phones, etc..) where possible,
+          <br>
+          keep in mind that sometimes the
+          <br>designers forget to create them.
+        </li>
+      </ol>
+    </div>
+  </section>
+  <!-- help END -->
+  <!-- offer BEGIN -->
+  <section class="offer" id="offer">
+    <img src="images/offer-img.png" alt="" class="offer__img">
+    <div class="container">
+      <h2 class="title offer__title">We offer:</h2>
+      <div class="offer__list">
+        <div class="row">
+          <div class="col-4 offer__col">
+            <div class="offer__item">
+              <div class="offer-item__picture">
+                <img src="images/icon-succes.png" alt="" class="offer-item__image offer-item__image_show">
+                <img src="images/icon-succes-hover.png" alt="" class="offer-item__image offer-item__image_hide">
+              </div>
+              <div class="offer-item__text">Career growth</div>
+            </div>
+          </div>
+          <div class="col-4 offer__col">
+            <div class="offer__item">
+              <div class="offer-item__picture">
+                <img src="images/icon-exit.png" alt="" class="offer-item__image offer-item__image_show">
+                <img src="images/icon-exit-hover.png" alt="" class="offer-item__image offer-item__image_hide">
+              </div>
+              <div class="offer-item__text">Flexible working schedule</div>
+            </div>
+          </div>
+          <div class="col-4 offer__col">
+            <div class="offer__item">
+              <div class="offer-item__picture">
+                <img src="images/icon-computer.png" alt="" class="offer-item__image offer-item__image_show">
+                <img src="images/icon-computer-hover.png" alt="" class="offer-item__image offer-item__image_hide">
+              </div>
+              <div class="offer-item__text">Comfortable workplace</div>
+            </div>
+          </div>
+          <div class="col-4 offer__col">
+            <div class="offer__item">
+              <div class="offer-item__picture">
+                <img src="images/icon-men.png" alt="" class="offer-item__image offer-item__image_show">
+                <img src="images/icon-men-hover.png" alt="" class="offer-item__image offer-item__image_hide">
+              </div>
+              <div class="offer-item__text">
+                Competitive salary
+                <br>
+                according to the
+                <br>qualifications</div>
+            </div>
+          </div>
+          <div class="col-4 offer__col">
+            <div class="offer__item">
+              <div class="offer-item__picture">
+                <img src="images/icon-fight.png" alt="" class="offer-item__image offer-item__image_show">
+                <img src="images/icon-fight-hover.png" alt="" class="offer-item__image offer-item__image_hide">
+              </div>
+              <div class="offer-item__text">Corporate leisure activities</div>
+            </div>
+          </div>
+          <div class="col-4 offer__col">
+            <div class="offer__item">
+              <div class="offer-item__picture">
+                <img src="images/icon-board.png" alt="" class="offer-item__image offer-item__image_show">
+                <img src="images/icon-board-hover.png" alt="" class="offer-item__image offer-item__image_hide">
+              </div>
+              <div class="offer-item__text">English lessons</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- offer END -->
+  <!-- contacts BEGIN -->
+  <section class="contacts" id="contacts">
+    <div class="container contacts_container">
+      <h2 class="title contacts__title">Contacts</h2>
+      <div class="contacts__general">
+        <form class="form contacts__form" autocomplete="off">
+          <div class="title form__title contacts__general-title">Sent Request</div>
+          <div class="form__line">
+            <input type="text" class="input input_light" id="forname" placeholder="Input your name">
+            <label for="forname" class="label">Input Name</label>
+          </div>
+          <div class="form__line">
+            <input type="text" class="input input_light" id="foremail" placeholder="Input your email">
+            <label for="foremail" class="label">Input Email</label>
+          </div>
+          <div class="form__line">
+            <input type="submit" value="Sent" class="btn form__btn">
+          </div>
+        </form>
+        <div class="contacts__adress">
+          <div class="contacts-adress__title">GET IN TOUCH</div>
+          <ul class="contacts-adress__list">
+            <li class="contacts-adress__item"><span class="font_large">Ukraine, Lviv</span></li>
+            <li class="contacts-adress__item"><span class="font_large">Telephone:</span> <a href="tel:+380509214381" class="contacts-adress__link">+380509214381</a></li>
+            <li class="contacts-adress__item">E-mail: <a href="mailto:pecodesoftware@gmail.com" class="contacts-adress__link">pecodesoftware@gmail.com</a></li>
+          </ul>
+          <ul class="social">
+            <li class="social__item">
+              <a href="#" target="_blank" class="social__link">
+                <img src="images/linkedin.png" alt="" class="social__img social__img_show">
+                <img src="images/linkedin_active.png" alt="" class="social__img social__img_hide">
+              </a>
+            </li>
+            <li class="social__item">
+              <a href="#" target="_blank" class="social__link">
+                <img src="images/twitter.png" alt="" class="social__img social__img_show">
+                <img src="images/twiter_active.png" alt="" class="social__img social__img_hide">
+              </a>
+            </li>
+            <li class="social__item">
+              <a href="#" target="_blank" class="social__link">
+                <img src="images/fb.png" alt="" class="social__img social__img_show">
+                <img src="images/fb_active.png" alt="" class="social__img social__img_hide">
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- contacts END -->
+  <!-- map BEGIN -->
+  <div id="map" class="map"></div>
+  <!-- map END -->
+  <!-- footer BEGIN -->
+  <section class="footer">
+    <div class="container footer__container">
+      <div class="footer__text">Created by ...</div>
+      <div class="footer__circle"></div>
+    </div>
+  </section>
+  <!-- footer END --> </div>
+<!-- site END -->
+
+<!-- main ↓ -->
+<script src="js/main.js"></script>
+<!-- google__map ↓ -->
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDIvDE-HzBICXsbocYfOWW4KBw-yDb0zR8"></script>
+<script src="js/map.js"></script>
+
+</body>
+</html>
